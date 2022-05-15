@@ -10,46 +10,63 @@
   </head>
   <body>
     <section class="slider">
+      <input
+        class="slider__slides-switches"
+        id="switch1"
+        type="radio"
+        name="slider"
+        checked
+      />
+      <input
+        class="slider__slides-switches"
+        id="switch2"
+        type="radio"
+        name="slider"
+      />
+      <input
+        class="slider__slides-switches"
+        id="switch3"
+        type="radio"
+        name="slider"
+      />
+      <input
+        class="slider__slides-switches"
+        id="switch4"
+        type="radio"
+        name="slider"
+      />
       <div class="slider__main">
         <div class="container">
-          <div class="slider__main-inner">
-            <div class="slider__markers">
-              <input id="switch1" type="radio" name="slider" checked />
-              <input id="switch2" type="radio" name="slider" />
-              <input id="switch3" type="radio" name="slider" />
-              <input id="switch4" type="radio" name="slider" />
-            </div>
-            <div class="slider__slides">
-              <div class="slider__slides-overflow">
-                <div class="slider__slides-images">
-                  <div class="slider__slide">
-                    <img
-                      class="slider__img"
-                      src="/images/37d9ee9a2b4192ff57b7d0eb909e314c.jpg"
-                      alt="meme picture"
-                    />
-                  </div>
-                  <div class="slider__slide">
-                    <img
-                      class="slider__img"
-                      src="/images/1e8e004e265352071e8b4ff6037faee6.jpg"
-                      alt="meme picture"
-                    />
-                  </div>
-                  <div class="slider__slide">
-                    <img
-                      class="slider__img"
-                      src="/images/21ab3aedccf164b492fd192c26bb00e8.jpg"
-                      alt="meme picture"
-                    />
-                  </div>
-                  <div class="slider__slide">
-                    <img
-                      class="slider__img"
-                      src="/images/37d9ee9a2b4192ff57b7d0eb909e314c.jpg"
-                      alt="meme picture"
-                    />
-                  </div>
+          <div class="slider__slides">
+            <div class="slider__slides-overflow">
+              <div class="slider__slides-images">
+                <div class="slider__slide target">
+                  <img
+                    class="slider__img"
+                    src="/images/first.jpg"
+                    alt="meme picture"
+                  />
+                </div>
+                <div class="slider__slide">
+                  <img
+                    class="slider__img"
+                    src="/images/second.jpg"
+                    alt="meme picture"
+                  />
+                </div>
+                <div class="slider__slide">
+                  <img
+                    class="slider__img"
+                    src="/images/third.jpg"
+                    alt="meme picture"
+                  />
+                </div>
+                <div class="slider__slide">
+                  <img
+                    class="slider__img"
+                    src="/images/fourth.jpg"
+                    alt="meme picture"
+                  />
                 </div>
               </div>
             </div>
@@ -62,18 +79,45 @@
             <div class="slider__description">
               <div class="slider__description-overflow">
                 <div class="slider__description-content">
-                  <p class="slider__description-text">11111</p>
-                  <p class="slider__description-text">22222</p>
-                  <p class="slider__description-text">33333</p>
-                  <p class="slider__description-text">44444</p>
+                  <label class="slider__description-text goal" for="switch1"
+                    >Guys, I just can’t think of a caption for the picture, just
+                    try to remember this wonderful series.</label
+                  >
+                  <label class="slider__description-text" for="switch1"
+                    >My friend and I every time at school in Russian language
+                    lessons, when the teacher said the word "member".</label
+                  >
+                  <label class="slider__description-text" for="switch1"
+                    >If you haven't watched this series, be sure to turn it on
+                    right now. It's called "friends".</label
+                  >
+                  <label class="slider__description-text" for="switch1"
+                    >We were all Chandler once. The world needs hugs.</label
+                  >
                 </div>
               </div>
             </div>
             <nav class="slider__navigation">
-              <label class="sliver__navigation-link" for="switch1"></label>
-              <label class="sliver__navigation-link" for="switch2"></label>
-              <label class="sliver__navigation-link" for="switch3"></label>
-              <label class="sliver__navigation-link" for="switch4"></label>
+              <label
+                class="slider__navigation-link slider__navigation-link--active-1"
+                for="switch1"
+              >
+              </label>
+              <label
+                class="slider__navigation-link slider__navigation-link--active-2"
+                for="switch2"
+              >
+              </label>
+              <label
+                class="slider__navigation-link slider__navigation-link--active-3"
+                for="switch3"
+              >
+              </label>
+              <label
+                class="slider__navigation-link slider__navigation-link--active-4"
+                for="switch4"
+              >
+              </label>
             </nav>
           </div>
         </div>
