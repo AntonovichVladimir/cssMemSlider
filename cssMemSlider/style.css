@@ -278,3 +278,37 @@ body {
     align-self: center;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .slider__navigation-link {
+    height: 10px;
+    width: 50px;
+  }
+  .slider__navigation-link:nth-child(1)::after {
+    left: -5px;
+    top: -7.5px;
+    width: 60px;
+    height: 25px;
+  }
+  .slider__navigation-link:nth-child(2)::after {
+    left: -5px;
+    top: -7.5px;
+    width: 60px;
+    height: 25px;
+  }
+  .slider__navigation-link:nth-child(3)::after {
+    left: -5px;
+    top: -7.5px;
+    width: 60px;
+    height: 25px;
+  }
+  .slider__navigation-link:nth-child(4)::after {
+    left: -5px;
+    top: -7.5px;
+    width: 60px;
+    height: 25px;
+  }
+  .slider__description-text {
+    font-size: calc(1vw + 1.7rem);
+  }
+}
