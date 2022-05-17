@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>CSS Mem Slider</title>
+  </head>
+  <body>
+    <section class="slider">
+      <input
+        class="slider__slides-switches"
+        id="switch1"
+        type="radio"
+        name="slider"
+        checked
+      />
+      <input
+        class="slider__slides-switches"
+        id="switch2"
+        type="radio"
+        name="slider"
+      />
+      <input
+        class="slider__slides-switches"
+        id="switch3"
+        type="radio"
+        name="slider"
+      />
+      <input
+        class="slider__slides-switches"
+        id="switch4"
+        type="radio"
+        name="slider"
+      />
+      <div class="slider__main">
+        <div class="container">
+          <div class="slider__slides">
+            <div class="slider__slides-overflow">
+              <div class="slider__slides-images">
+                <div class="slider__slide target">
+                  <img
+                    class="slider__img"
+                    src="./images/first.jpg"
+                    alt="meme picture"
+                  />
+                </div>
+                <div class="slider__slide">
+                  <img
+                    class="slider__img"
+                    src="./images/second.jpg"
+                    alt="meme picture"
+                  />
+                </div>
+                <div class="slider__slide">
+                  <img
+                    class="slider__img"
+                    src="./images/third.jpg"
+                    alt="meme picture"
+                  />
+                </div>
+                <div class="slider__slide">
+                  <img
+                    class="slider__img"
+                    src="./images/fourth.jpg"
+                    alt="meme picture"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider__footer">
+        <div class="container">
+          <div class="slider__footer-inner">
+            <div class="slider__description">
+              <div class="slider__description-overflow">
+                <div class="slider__description-content">
+                  <label class="slider__description-text goal" for="switch1"
+                    >Guys, I just can’t think of a caption for the picture, just
+                    try to remember this wonderful series.</label
+                  >
+                  <label class="slider__description-text" for="switch1"
+                    >My friend and I every time at school in Russian language
+                    lessons, when the teacher said the word "member".</label
+                  >
+                  <label class="slider__description-text" for="switch1"
+                    >If you haven't watched this series, be sure to turn it on
+                    right now. It's called "friends".</label
+                  >
+                  <label class="slider__description-text" for="switch1"
+                    >We were all Chandler once. The world needs hugs.</label
+                  >
+                </div>
+              </div>
+            </div>
+            <nav class="slider__navigation">
+              <label
+                class="slider__navigation-link slider__navigation-link--active-1"
+                for="switch1"
+              >
+                <div class="slider__navigation-button"></div>
+              </label>
+              <label
+                class="slider__navigation-link slider__navigation-link--active-2"
+                for="switch2"
+              >
+                <div class="slider__navigation-button"></div>
+              </label>
+              <label
+                class="slider__navigation-link slider__navigation-link--active-3"
+                for="switch3"
+              >
+                <div class="slider__navigation-button"></div>
+              </label>
+              <label
+                class="slider__navigation-link slider__navigation-link--active-4"
+                for="switch4"
+              >
+                <div class="slider__navigation-button"></div>
+              </label>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
